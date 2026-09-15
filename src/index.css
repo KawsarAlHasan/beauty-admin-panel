@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles for the sidebar */
+.ant-menu {
+  width: 320px !important;
+}
+
+.ant-menu .ant-menu-item-selected {
+  background: linear-gradient(90.04deg, #FD0778 0.04%, #FE5E08 99.97%) !important;
+  color: #ffffff !important;
+}
+
+.ant-menu .ant-menu-item-selected a {
+  color: #ffffff !important;
+}
+
+.ant-menu .ant-menu-item:hover {
+  background: linear-gradient(90.04deg, #e80068 0.04%, #e94f05 99.97%) !important;
+  color: #ffffff !important;
+}
+
+.ant-menu .ant-menu-submenu-title:hover {
+  background: linear-gradient(90.04deg, #e80068 0.04%, #e94f05 99.97%) !important;
+  color: #ffffff !important;
+}
+
+.ant-menu .ant-menu-item a {
+  color: #002436;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.ant-menu .ant-menu-item .anticon {
+  font-size: 18px;
+}
+
+.ant-table .ant-table-thead > tr > th::before {
+  display: none !important;
+}
+
+/* Hover state for submenu items */
+.ant-menu .ant-menu-submenu .ant-menu-item:hover {
+  background: linear-gradient(90.04deg, #e80068 0.04%, #e94f05 99.97%) !important;
+  color: #ffffff !important;
+}
+
+/* Selected state for submenu items */
+.ant-menu .ant-menu-submenu .ant-menu-item-selected {
+  background: linear-gradient(90.04deg, #FD0778 0.04%, #FE5E08 99.97%) !important;
+  color: #ffffff !important;
+}
+
+.mainBG {
+  background-color: #e7ebee !important;
+}
+
+.bgBlack {
+  background-color: #003d99 !important;
+}
+
+.mainColor {
+  color: #003d99 !important;
+}
+
+.my-main-button {
+  color: #fff !important;
+  background: linear-gradient(
+    90.04deg,
+    #FD0778 0.04%,
+    #FE5E08 99.97%
+  ) !important;
+  border: none !important;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.my-main-button:hover {
+  background: linear-gradient(
+    90.04deg,
+    #e80068 0.04%,
+    #e94f05 99.97%
+  ) !important;
+  color: #fff !important;
+  border: none !important;
+}
+
+.my-main-button:active {
+  transform: scale(0.98);
+}
+
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+.mainTitle {
+  color: #003d99;
+  font-size: 24px;
+  font-weight: 600;
+}
